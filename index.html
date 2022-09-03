@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="img\favicon.ico">
+    <title>My Work - Portfolio</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="site-title"><a href="index.html"><img src="img\logo.svg" alt="ロゴ"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width:600px)" srcset="mmm\mainvisual-pc.jpg">
+          <img src="mmm\mainvisual-pc.jpg" alt="メイン画像">
+        </picture>
+      </div>
+
+      <section id="about" class="wrappper">
+        <h2 class="section-title">About</h2>
+        <ul>
+          <li>family name = name</li>
+          <li>住所:兵庫県姫路市本町６８番地<br>電話番号：０７９－２８５－１１４６<br><a href="URL:https://www.city.himeji.lg.jp/castle/">https://www.city.himeji.lg.jp/castle/</a><br>Email:</li>
+          <p>プロフィール:aaaaaaaaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaaa</p>
+        </ul>
+      </section>
+
+      <section id="works" class="wrappper">
+        <h2 class="section-title">Works</h2>
+        <ul>
+          <li><img src="mmm\works6.jpg" alt="画像"></li>
+          <li><img src="mmm\works5.jpg" alt="画像"></li>
+          <li><img src="mmm\works4.jpg" alt="画像"></li>
+          <li><img src="mmm\works3.jpg" alt="画像"></li>
+          <li><img src="mmm\works2.jpg" alt="画像"></li>
+          <li><img src="mmm\works1.jpg" alt="画像"></li>
+        </ul>
+      </section>
+
+      <section id="news" class="wrappper">
+        <h2 class="section-title">News</h2>
+        <dl>
+          <dt>2022.09.03</dt>
+          <dd>中山きんに君<br>「僕が人を笑わせているなんて…営業妨害です！　僕が笑いをとれるわけないでしょ」</dd>
+          <dt>2022.09.03</dt>
+          <dd>ラ・ロシュコー(フランス貴族,17世紀)<br>「我々は、幸福になるためよりも、幸福だと人に思わせるため四苦八苦している。」</dd>
+          <dt>2022.09.03</dt>
+          <dd>ボヴォワール「人間は誰もが考えている。インテリだけがそれを自慢しているのだ。」</dd>
+          <dt>2022.09.03</dt>
+          <dd>シャルルドゴール<br>「政治家は自分でも自分が言ってることを信じていないから、他人が信じてくれるとびっくりする。」</dd>
+          <dt>2022.09.03</dt>
+          <dd>「相手にされていないと感じた時は、ローンの支払いをいくつか無視するといいよ」</dd>
+        </dl>
+      </section>
+
+      <section id="contact" class="wrappper">
+        <h2 class="section-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="emali">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">Message</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2022 My Work</p>
+    </footer>
+  </body>
+</html>
